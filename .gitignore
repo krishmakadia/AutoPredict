@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS system files
+.DS_Store
+
+# VSCode and other editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Model and scaler artifacts (optional)
+# model.pkl
+# scaler.pkl
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# dotenv files
+.env
+.env.*
+
+# Test/output folders
+build/
+dist/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Docker artifacts
+*.pid
+
+# Exclude everything else in the backend and frontend directories
+backend/*
+frontend/*
+
+# Explicitly include main.py and train_model.py files from the backend folder
+!backend/main.py
+!backend/train_model.py
